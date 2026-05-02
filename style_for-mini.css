@@ -1,1 +1,124 @@
-/*# sourceMappingURL=style_for-mini.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+button {
+  border: none;
+}
+
+.header {
+  background-image: url(./img/bg-top.png);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #202027;
+}
+.header__main {
+  padding-top: 196px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+.header__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  color: #202027;
+}
+.header__text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  max-width: 720px;
+  color: #202027;
+}
+.header__text-bold {
+  font-weight: 600;
+}
+.header__btn {
+  margin-top: 24px;
+  width: 247px;
+  padding: 16px 0px;
+  background-color: #202027;
+  color: white;
+  border-radius: 60px;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+}
+.header__btn:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.3s;
+}
+
+.main-content {
+  background-color: #202027;
+}
+
+.about {
+  background-color: #202027;
+  padding-bottom: 96px;
+  padding-top: 94px;
+}
+.about__title {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 64px;
+  color: white;
+}
+.about__text {
+  margin-bottom: 72px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: white;
+}
+.about__item {
+  display: block;
+  width: 378px;
+  height: 512px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+}
+.about__item_small {
+  height: 473px;
+}
+.about__item_big {
+  height: 551px;
+}
+.about__img {
+  display: block;
+}
+.about__text-box {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 32px;
+  padding-top: 32px;
+}
+.about__game-number {
+  padding: 8px 16px 10px 16px;
+  box-sizing: border-box;
+  background-color: #F7F7F7;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 53px;
+  margin-bottom: 16px;
+  color: #202027;
+}
+.about__game-name {
+  font-weight: 700;
+  font-size: 32px;
+  color: #202027;
+}/*# sourceMappingURL=style_for-mini.css.map */
