@@ -68,6 +68,23 @@ button {
   background-color: #202027;
   padding-bottom: 96px;
   padding-top: 94px;
+  position: relative;
+}
+.about__star-bg1 {
+  position: absolute;
+  z-index: 0;
+  top: 94px;
+  right: -120px;
+}
+.about__star-bg2 {
+  position: absolute;
+  top: 770px;
+  left: -95px;
+}
+.about__star-bg3 {
+  position: absolute;
+  top: 820px;
+  left: -80px;
 }
 .about__title {
   margin-bottom: 24px;
@@ -82,6 +99,13 @@ button {
   line-height: 32px;
   color: white;
 }
+.about__game {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  z-index: 1;
+}
 .about__item {
   display: block;
   width: 378px;
@@ -90,12 +114,20 @@ button {
   border-radius: 30px;
   text-decoration: none;
   color: black;
+  z-index: 0;
 }
 .about__item_small {
   height: 473px;
 }
 .about__item_big {
   height: 551px;
+}
+.about__item_order5 {
+  align-self: flex-end;
+}
+.about__item:hover {
+  transform: scale(1.1);
+  transition: all 1s;
 }
 .about__img {
   display: block;
@@ -121,4 +153,14 @@ button {
   font-weight: 700;
   font-size: 32px;
   color: #202027;
+}
+
+.footer {
+  background-color: #BDED35;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 24px;
 }/*# sourceMappingURL=style_for-mini.css.map */
